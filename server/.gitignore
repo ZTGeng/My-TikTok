@@ -1,0 +1,13 @@
+.DS_STORE
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.vscode/
+.idea/
+*.log
+logs/
+videos/*
+thumbnails/*
+!thumbnails/placeholder.jpg

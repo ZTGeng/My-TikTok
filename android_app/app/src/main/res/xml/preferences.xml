@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- EditTextPreference 用于输入服务器的 IP 地址 -->
+    <EditTextPreference
+        android:key="server_ip"
+        android:title="@string/server_ip_title"
+        android:summary="@string/server_ip_summary"
+        android:defaultValue="192.168.0.3:5000"
+        android:inputType="text"
+        android:hint="@string/server_ip_hint" />
+
+    <PreferenceCategory
+        android:key="back_button_category"
+        android:title="@string/other_settings">
+        <!-- 这里稍后将动态添加返回按钮 -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My TikTok</string>
+    <string name="back_button">返回</string>
+    <string name="other_settings">其他设置</string>
+    <string name="server_ip_hint">例如：192.168.0.3:5000</string>
+    <string name="server_ip_summary">输入用于连接的服务器 IP 地址</string>
+    <string name="server_ip_title">服务器 IP 地址</string>
+    <string name="settings">设置</string>
+    <string name="title_hint">请输入视频标题</string>
+    <string name="toast_loading_failed">视频列表加载失败：%1$s</string>
+    <string name="toast_loading_failed_client">视频列表加载失败，客户端遇到问题：%1$s</string>
+    <string name="toast_upload_permission_denied">权限被拒绝，无法选择视频</string>
+    <string name="toast_upload_permission_rationale">我们需要此权限来选择视频</string>
+    <string name="toast_upload_failed">视频上传失败：%1$s</string>
+    <string name="toast_upload_failed_client">视频上传失败，客户端遇到问题：%1$s</string>
+    <string name="toast_upload_success">视频上传成功</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="upload_button">上传</string>
+    <string name="upload_button_description">上传视频</string>
+    <string name="video_play_invalid_url">视频URL无效</string>
+</resources>
